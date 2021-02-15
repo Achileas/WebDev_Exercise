@@ -8,5 +8,20 @@ namespace WebDev_Exercise
         {
 
         }
+
+        protected void firstNameInput_TextChanged(object sender, EventArgs e)
+        {
+            userNameHeader.Text = firstNameInput.Text + " " + lastNameInput.Text;
+        }
+
+        protected void lastNameInput_TextChanged(object sender, EventArgs e)
+        {
+            userNameHeader.Text = firstNameInput.Text + " " + lastNameInput.Text;
+        }
+
+        protected void doneButton_Click(object sender, EventArgs e)
+        {
+            userNameHeader.Text = firstNameInput.Text + " " + lastNameInput.Text;
+        }
     }
 }
