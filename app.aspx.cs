@@ -8,5 +8,15 @@ namespace WebDev_Exercise
         {
 
         }
+
+        protected void LoginButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("detail.aspx" + "?username=" + usernameInputBox.Text);
+        }
+
+        protected void goButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("detail.aspx");
+        }
     }
 }
