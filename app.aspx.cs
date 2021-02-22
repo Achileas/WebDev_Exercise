@@ -8,5 +8,25 @@ namespace WebDev_Exercise
         {
 
         }
+
+        protected void foodSubmitButton_Click(object sender, EventArgs e)
+        {
+            if(pizzaRadioButton.Checked)
+            {
+                foodImage.ImageUrl = "assets/pizza.gif";
+            }
+            if(burgerRadioButton.Checked)
+            {
+                foodImage.ImageUrl = "assets/burger.gif";
+            }
+            if(curryRadioButton.Checked)
+            {
+                foodImage.ImageUrl = "assets/curry.gif";
+            }
+            if(tacoRadioButton.Checked)
+            {
+                foodImage.ImageUrl = "assets/taco.gif";
+            }
+        }
     }
 }
