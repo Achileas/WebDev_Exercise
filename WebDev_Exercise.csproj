@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.aspx" />
+    <Content Include="assets\1WuaD8g.png" />
     <Content Include="Global.asax" />
+    <Content Include="MasterPage\boss.aspx" />
     <Content Include="StyleSheet\shitty.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -83,9 +85,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="MasterPage\boss.aspx.cs">
+      <DependentUpon>boss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\boss.aspx.designer.cs">
+      <DependentUpon>boss.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\Root.Master.cs">
+      <DependentUpon>Root.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\Root.Master.designer.cs">
+      <DependentUpon>Root.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MasterPage\Root.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
