@@ -1,0 +1,12 @@
+﻿body {
+    background: #9999FF
+}
+
+#simpleTextBox, #simpleTextBox:focus {
+    background: #9999FF;
+    border: none;
+    border-bottom: 3px double #FF0000;
+    font-family: 'Ink Free';
+    font-size: 32px;
+    color: #FFFFFF;
+}

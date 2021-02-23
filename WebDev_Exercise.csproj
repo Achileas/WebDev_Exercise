@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="app.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="StyleSheet\shitty.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
