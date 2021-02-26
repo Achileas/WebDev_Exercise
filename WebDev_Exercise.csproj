@@ -68,6 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.aspx" />
+    <Content Include="assets\aches.jpg" />
+    <Content Include="assets\apathy.jpg" />
+    <Content Include="assets\crimsix.jpg" />
+    <Content Include="assets\FaZe_Clayster.jpg" />
+    <Content Include="assets\Jkap.jpg" />
+    <Content Include="assets\karma.jpg" />
+    <Content Include="assets\scump.jpg" />
+    <Content Include="assets\slasher.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
